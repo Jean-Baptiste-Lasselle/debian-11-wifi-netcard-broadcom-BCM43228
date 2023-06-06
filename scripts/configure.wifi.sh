@@ -26,3 +26,5 @@ EOF
 cat ./.tmp.${BOBO_WIFI_NET_INTERFACE}.interface | sudo tee /etc/network/interfaces.d/${BOBO_WIFI_NET_INTERFACE}.interface
 
 ls -alh /etc/network/interfaces.d/
+
+sudo ifup ${BOBO_WIFI_NET_INTERFACE}
