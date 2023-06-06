@@ -1,0 +1,7 @@
+# my wifi device
+allow-hotplug wlp2s0
+iface wlp3s0 inet dhcp
+        # wpa-ssid ESSID
+        wpa-ssid Alcatel 1S
+        # wpa-psk PASSWORD
+        wpa-psk acad3003
